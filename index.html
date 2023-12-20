@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="/assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="/assets/responsive.css">
     <link rel="stylesheet" href="/assets/fonts/static/Quicksand-Light.ttf">
-    <title>HUBADI-Restaurant</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
        <div class="nav" id="header">
             <ul class="nav-right" >
-                <li><a href="http://hubadi_restaurant.surge.sh/" class="active">Home</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="#About">About us</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="/contact/contact.html">Contact</a></li>
+                <li><a href="/About-us/about-us.html">About us</a></li>
                 <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Login"><i class="ti-user" id="icon-login">Login/SignUp</i></a></li>
+                <li><a href="/login/login.html"><i class="ti-user" id="icon-login">Login/SignUp</i></a></li>
                 <div id="mobile-menu"><i class="ti-menu"></i></div>
             </ul>
         <div class="logo">
@@ -73,66 +73,7 @@
                 <span> <a href="#"><i class="ti-facebook"></i></a>   <a href="#"><i class="ti-instagram"></i></a>   <a href="#"><i class="ti-twitter-alt"></i></a> </span>
             </p>
     </footer>
-
-        <div class="login" id="login-form">
-            <form class="login-container" action="/action_page.php" method="post">
-                <div class="login-header animate">
-                    <span onclick="document.getElementById('login-form').style.display='none'" class="close" title="Close Login"><i class="ti-close"></i></span>
-                    <p class="login-title">Login</p>
-                </div>
-                <div class="container">
-                    <label for="uname"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required>
-
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
-
-                    <button class="btn-submit" type="submit">Login</button>
-                    <label>
-                      <input type="checkbox" checked="checked" name="remember"> Remember me
-                    </label>
-                </div>
-                <div class="login-footer">
-                    <button type="button" class="btn-login-fb"><i class="ti-facebook"></i></button>
-                    <button type="button" class="btn-login-gg"><i class="ti-google"></i></button>
-                    <button type="button" class="btn-login-apple"><i class="ti-apple"></i></button>
-                    <span class="psw"><span id="sign-up-link">Sign <a href="#sign-up-form">up</a> </span> &nbsp; Forgot <a href="#">password?</a></span>
-                  </div>
-            </form>
-
-        </div>
-
-
-        <div class="sign-up" id="sign-up-form">
-            <form class="sign-up-container" action="/action_page.php" method="post">
-                <div class="sign-up-header animate">
-                    <span onclick="document.getElementById('sign-up-form').style.display='none'" class="close" title="Close sign up"><i class="ti-close"></i></span>
-                    <p class="sign-up-title">Sign Up</p>
-                </div>
-                <div class="container">
-                    <p class="suggest-sign-up">Please fill in this form to create an account.</p>
-                    <hr>
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" required>
-              
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
-              
-                    <label for="psw-repeat"><b>Repeat Password</b></label>
-                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                    <button class="btn-submit" type="submit">Sign Up</button>
-                    </label>
-                </div>
-                <div class="sign-up-footer">
-                    <button type="button" class="btn-sign-up-fb"><i class="ti-facebook"></i></button>
-                    <button type="button" class="btn-sign-up-gg"><i class="ti-google"></i></button>
-                    <button type="button" class="btn-sign-up-apple"><i class="ti-apple"></i></button>
-                    <span class="psw"><span id="login-form-link" >Lo<a href="#login-form">gin</a></span> &nbsp; Forgot <a href="#">password?</a></span>
-                  </div>
-            </form>
-
-        </div>
-
+    
         <script src="/assets/script.js"></script>
 </body>
 

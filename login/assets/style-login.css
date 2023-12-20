@@ -1,0 +1,203 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  background-color: rgba(0,0,0,0.5);
+}
+
+.login .login-container{
+    
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 600px;
+    height: 500px;
+    min-height: 200px;
+    border-radius:10px ;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .btn-submit {
+    background-color: rgb(209, 126, 17);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .btn-submit:hover {
+      background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+      box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+      cursor: pointer;
+  }
+
+  .btn-login-fb,.btn-login-gg,.btn-login-apple {
+    padding: 10px 20px;
+    background-color: #ffede0;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .btn-login-fb{
+    margin-left: 10px;
+  }
+
+  .btn-login-fb:hover,.btn-login-gg:hover,.btn-login-apple:hover{
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    cursor: pointer;
+  }
+  
+  .login-header .ti-close {
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .login-header .login-title{
+    text-align: center;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  span.psw {
+    float: right;
+    padding: 12px;
+  }
+
+  .login-header .ti-close:hover,
+  .login-header .ti-close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+.sign-up{
+    display: none; /* Hidden by default */
+}
+
+.sign-up .sign-up-container{
+    
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 600px;
+    height: 500px;
+    min-height: 200px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .btn-submit {
+    background-color: rgb(209, 126, 17);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .btn-submit:hover {
+    opacity: 0.8;
+  }
+
+
+.btn-sign-up-fb,.btn-sign-up-gg,.btn-sign-up-apple {
+    padding: 10px 20px;
+    background-color: #ffede0;
+    border: none;
+    border-radius: 10px;
+    width: 20%;
+  }
+
+  .btn-sign-up-fb{
+    margin-left: 10px;
+  }
+
+  .btn-sign-up-fb:hover,.btn-sign-up-gg:hover,.btn-sign-up-apple:hover{
+    opacity: 0.8;
+  }
+  
+  .sign-up-header .ti-close {
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.suggest-sign-up{
+    margin: 12px;
+}
+
+  .sign-up-header .sign-up-title{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  span.psw {
+    float: right;
+    padding: 12px;
+  }
+
+  .psw:hover{
+    cursor: pointer;
+  }
+
+
+
+  .sign-up-header .ti-close:hover,
+  .sign-up-header .ti-close:focus {
+  color: red;
+  cursor: pointer;
+}
+

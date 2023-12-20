@@ -1,0 +1,44 @@
+@media (min-width: 1024px) {
+    .ti-menu{
+        display: none;
+    }
+
+    .container-contact .column{
+        float: left;
+        width: 50%;
+    }
+    
+}
+
+@media (min-width: 740px) and (max-width: 1024px){
+     .ti-menu{
+        display: none;
+    }
+    .container-contact .column{
+        float: left;
+        width: 50%;
+      }
+
+}
+
+@media (max-width: 740px) {
+    .nav .nav-right{
+        display: block;
+    }
+   .nav .nav-right > li{
+        display: block;
+    }
+
+    .container-contact .column{
+        width: 100%;
+    }
+
+    .line1{
+        height: 700px !important;
+        clear:  both !important;
+    }
+
+    footer{
+        clear:  both !important;
+    }
+}

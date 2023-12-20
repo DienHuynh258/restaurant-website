@@ -13,12 +13,14 @@ body{
     background-color: rgba(245, 245,220, 0.2);
 }
 
+/* thanh điều hướng của trang website*/
+
 .nav{
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-    background-color:black;
+    background-color:white;
     opacity: 0.8;
     height: 80px;
     overflow: hidden;
@@ -26,7 +28,7 @@ body{
 
 .nav-right li a{
     text-decoration: none;
-    color:white;
+    color:black;
     padding: 12px 24px;
     float: left;
     font-weight: bold;
@@ -35,16 +37,17 @@ body{
 }
 .nav-right li a i{
     text-decoration: none;
-    color:white;
+    color:black;
     font-weight: bold;
 }
-
 .nav a:hover{
     color: burlywood;
+    transform: scale(1.2);
 }
 
 .nav i:hover{
     color: burlywood;
+    transform: scale(1.2);
 }
 
 .nav-right li{
@@ -68,7 +71,7 @@ body{
     left: 32px;
 }
 .nav-right .ti-menu{
-   color: white;
+   color: black;
    position: fixed;
    top: 32px;
    right: 24px;
@@ -80,6 +83,8 @@ body{
     background-color:burlywood;
 }
 
+/* hình ảnh sider */
+
 .image{
     max-width: 100%;
 }
@@ -87,6 +92,7 @@ body{
 .image img{
     width: 100%;
     opacity: 0.8;
+    transition: 0.5s ease;
 }
 
 .image .image-text{
@@ -128,6 +134,8 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+/* nội dung */
 
 
 #content .content-summary,.image-list,.img-alone,.book{
@@ -175,6 +183,7 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    transition: 0.5s ease;
 }
 
 #content .member-img:hover{
@@ -195,6 +204,7 @@ body{
     margin: 0 50px;
     color: #1A1A1AB3;
     line-height: 30px;
+    transition: 0.5s ease;
 }
 
 #content .img-alone-member{
@@ -218,12 +228,12 @@ body{
 }
 
 
-
+/* chân trang web */
 
 footer{
-    background-color:black; /* Green */
-    height: 200px;
-    margin-top: 200px;
+    background-color:rgb(25,18,55); /* Green */
+    height: 300px;
+    margin-top: 100px;
     opacity: 0.8;
     max-width: 100%;
 }
@@ -231,7 +241,7 @@ footer{
 footer p {
     text-align: center;
     padding: 71px 32px;
-    color: aliceblue;
+    color:white;
     font-size: 20px;
 }
 
@@ -242,214 +252,10 @@ footer p {
 }
 
 footer a{
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
 
-.login{
-    display: none; /* Hidden by default */
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    align-items: center;
-    justify-content: center;
-}
 
-.login .login-container{
-    
-    background-color: #fefefe;
-    border: 1px solid #888;
-    width: 600px;
-    height: 500px;
-    min-height: 200px;
-    position: relative;
-    border-radius:10px ;
-    top: 40px;
-}
-
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-
-  .btn-submit {
-    background-color: rgb(209, 126, 17);
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  .btn-submit:hover {
-    opacity: 0.8;
-  }
-
-  .btn-login-fb,.btn-login-gg,.btn-login-apple {
-    padding: 10px 20px;
-    background-color: #ffede0;
-    border: none;
-    border-radius: 10px;
-    width: 20%;
-  }
-
-  .btn-login-fb{
-    margin-left: 10px;
-  }
-
-  .btn-login-fb:hover,.btn-login-gg:hover,.btn-login-apple:hover{
-    opacity: 0.8;
-  }
-  
-  .login-header .ti-close {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    color: #000;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .login-header .login-title{
-    text-align: center;
-    padding: 24px;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .container {
-    padding: 16px;
-  }
-
-  span.psw {
-    float: right;
-    padding: 12px;
-  }
-
-  .login-header .ti-close:hover,
-  .login-header .ti-close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-
-
-.sign-up{
-    display: none; /* Hidden by default */
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
-    align-items: center;
-    justify-content: center;
-}
-
-.sign-up .sign-up-container{
-    
-    background-color: #fefefe;
-    border: 1px solid #888;
-    width: 600px;
-    height: 500px;
-    min-height: 200px;
-    position: relative;
-    border-radius: 10px;
-    top: 40px;
-}
-
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-
-  .btn-submit {
-    background-color: rgb(209, 126, 17);
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  .btn-submit:hover {
-    opacity: 0.8;
-  }
-
-
-.btn-sign-up-fb,.btn-sign-up-gg,.btn-sign-up-apple {
-    padding: 10px 20px;
-    background-color: #ffede0;
-    border: none;
-    border-radius: 10px;
-    width: 20%;
-  }
-
-  .btn-sign-up-fb{
-    margin-left: 10px;
-  }
-
-  .btn-sign-up-fb:hover,.btn-sign-up-gg:hover,.btn-sign-up-apple:hover{
-    opacity: 0.8;
-  }
-  
-  .sign-up-header .ti-close {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    color: #000;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-.suggest-sign-up{
-    margin: 12px;
-}
-
-  .sign-up-header .sign-up-title{
-    text-align: center;
-    margin-bottom: 12px;
-    margin-top: 12px;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .container {
-    padding: 16px;
-  }
-
-  span.psw {
-    float: right;
-    padding: 12px;
-  }
-
-  .psw:hover{
-    cursor: pointer;
-  }
-
-
-
-  .sign-up-header .ti-close:hover,
-  .sign-up-header .ti-close:focus {
-  color: red;
-  cursor: pointer;
-}
 

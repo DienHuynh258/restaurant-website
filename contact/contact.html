@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/logo.png">
+    <link rel="stylesheet" href="/contact/assets/responsive-contact.css">
+    <link rel="stylesheet" href="/contact/assets/style-contact.css">
+    <link rel="stylesheet" href="/assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div class="nav" id="header">
+             <ul class="nav-right" >
+                 <li><a href="/index.html" class="active">Home</a></li>
+                 <li><a href="/contact/contact.html">Contact</a></li>
+                 <li><a href="/About-us/about-us.html">About us</a></li>
+                 <li><a href="#Menu">Menu</a></li>
+                 <li><a href="/login/login.html"><i class="ti-user" id="icon-login">Login/SignUp</i></a></li>
+                 <div id="mobile-menu"><i class="ti-menu"></i></div>
+             </ul>
+         <div class="logo">
+             <img src="/assets/images/logo.png" alt="HUBADI">
+         </div>
+        </div>
+     </header>
+
+     <div class="container-contact">
+      <div class="heading">
+        <h1>Let's Connect</h1>
+        <p>Please contact us to find a seat that suits you</p>
+      </div>
+        <div style="text-align:center">
+        </div>
+        <div class="row">
+          <div class="column" id="column-contact-right">
+            <img class="order-img" src="/assets/images/oder-now-1.png" alt="order-image">
+            <p class="order-text">Order online <br><b>Please wait a second</b></p>
+            <div class="order-button"><button class="btn-order">Order now</button></div>
+          </div>
+          <div class="column" id="column-contact-left">
+            <div class="title-contact">
+                <h1 class="reserve"> Reserve a Table</h1>
+                <p class="reserve-text">To help us find the best table for you, select the preferred party size, date, and time of your reservation.</p>
+            </div>
+            <form action="/action_page.php">
+              <label for="fname">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+              <label for="birthday">Date</label>
+              <input type="date" id="date" name="date">
+              <label for="appt">Time:</label>
+              <input type="time" id="appt" placeholder="24/12/2023" name="appt">
+              <input type="submit" value="Send" id="submit-form-contact">
+            </form>
+          </div>
+        </div>
+      </div>
+
+     </div>
+
+     <div class="line1"> <br> <br></div>
+
+     <footer>
+      <p>
+          <span>Huong sen restaurant| 532 Long Son street,Tan Chau town,An Giang province</span>
+          <br> <br>
+          <span> <a href="#"><i class="ti-facebook"></i></a>   <a href="#"><i class="ti-instagram"></i></a>   <a href="#"><i class="ti-twitter-alt"></i></a> </span>
+      </p>
+    </footer>
+
+    <script src="/contact/assets/script-contact.js"></script>
+</body>
+
+</html>
